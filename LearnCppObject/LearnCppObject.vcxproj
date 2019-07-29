@@ -118,7 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2.1.cpp" />
+    <ClCompile Include="2.1_类对象所占用的空间.cpp" />
+    <ClCompile Include="2.2_对象结构的发展和演化.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

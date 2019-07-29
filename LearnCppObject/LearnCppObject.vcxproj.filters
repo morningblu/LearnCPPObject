@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2.1.cpp">
+    <ClCompile Include="2.1_类对象所占用的空间.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2_对象结构的发展和演化.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
