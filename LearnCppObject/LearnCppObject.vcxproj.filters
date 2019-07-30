@@ -21,5 +21,8 @@
     <ClCompile Include="2.2_对象结构的发展和演化.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.3_this指针调整.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
