@@ -24,5 +24,8 @@
     <ClCompile Include="2.3_this指针调整.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.4_分析obj(目标文件)_构造函数语义.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

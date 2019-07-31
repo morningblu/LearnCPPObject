@@ -58,16 +58,16 @@ public:
 	int c;
 };
 
-int main()
-{
-	std::cout << sizeof(A) << std::endl;
-	std::cout << sizeof(B) << std::endl;
-	std::cout << sizeof(C) << std::endl;
-
-	C myC;
-	myC.functionA();
-	myC.functionB();
-	myC.functionC();
-	
-	return 0;
-}
+//int main()
+//{
+//	std::cout << sizeof(A) << std::endl;
+//	std::cout << sizeof(B) << std::endl;
+//	std::cout << sizeof(C) << std::endl;
+//
+//	C myC;
+//	myC.functionA();
+//	myC.functionB();
+//	myC.functionC();
+//	
+//	return 0;
+//}
