@@ -122,6 +122,7 @@
     <ClCompile Include="2.2_对象结构的发展和演化.cpp" />
     <ClCompile Include="2.3_this指针调整.cpp" />
     <ClCompile Include="2.4_分析obj(目标文件)_构造函数语义.cpp" />
+    <ClCompile Include="2.5_构造函数语义续.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

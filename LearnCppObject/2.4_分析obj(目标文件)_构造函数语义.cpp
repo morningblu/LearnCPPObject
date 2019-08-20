@@ -2,41 +2,41 @@
 分析obj文件，构造函数语义
 */
 
-#include <iostream>
+//#include <iostream>
+//
+//class M0TX
+//{
+//public:
+//	M0TX()
+//	{
+//
+//	}
+//};
+//
+//class MATX
+//{
+//public:
+//	MATX() {
+//		std::cout << "dfd" << std::endl;
+//	}
+//
+//};
+//
+//class MBTX
+//{
+//public:
+//	int mA;
+//	int mB;
+//	MATX ma;
+//	M0TX m0;
+//	void func()
+//	{
+//		std::cout << "ddff" << std::endl;
+//	}
+//};
 
-class M0TX
-{
-public:
-	M0TX()
-	{
-
-	}
-};
-
-class MATX
-{
-public:
-	MATX() {
-		std::cout << "dfd" << std::endl;
-	}
-
-};
-
-class MBTX
-{
-public:
-	int mA;
-	int mB;
-	MATX ma;
-	M0TX m0;
-	void func()
-	{
-		std::cout << "ddff" << std::endl;
-	}
-};
-
-int main()
-{
+//int main()
+//{
 	//传统认识：没有自己定义构造函数，会自动定义一个无参构造函数，我们称之为"合成的构造函数"
 	//结论：默认的构造函数只有在必要的时候才会合成而不是必须合成的
 	//什么是必要的时候：
@@ -50,7 +50,7 @@ int main()
 	//查看myObj.txt文件中是否合成了默认够着函数
 
 
-	MBTX myB;
+	//MBTX myB;
 
-	return 0;
-}
+	//return 0;
+//}
