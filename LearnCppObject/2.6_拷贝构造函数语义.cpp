@@ -1,36 +1,36 @@
 /*
 */
+//
+//#include <iostream>
+//
+//class Asun
+//{
+//public:
+//	int mAsun;
+//};
 
-#include <iostream>
 
-class Asun
-{
-public:
-	int mAsun;
-};
-
-
-class CTB
-{
-public:
-	CTB()
-	{
-
-	}
-
-	int test; //求证拷贝值和拷贝构造函数调用顺序
-
-	CTB(const CTB& ctb)
-	{
-		std::cout << "CTB" << std::endl;
-	}
-
-	/******/
-	virtual void myVirtyal()
-	{
-
-	}
-};
+//class CTB
+//{
+//public:
+//	CTB()
+//	{
+//
+//	}
+//
+//	//int test; //求证拷贝值和拷贝构造函数调用顺序
+//
+//	CTB(const CTB& ctb)
+//	{
+//		std::cout << "CTB" << std::endl;
+//	}
+//
+//	/******/
+//	//virtual void myVirtyal()
+//	//{
+//
+//	//}
+//};
 //class CTBSon //: public CTB
 //{
 //public:
@@ -40,47 +40,47 @@ public:
 //	}
 //};
 
-class CTBSon : public CTB
-{
-public:
+//class CTBSon : public CTB
+//{
+//public:
+//
+//};
+//
+//class A
+//{
+//public:
+//	int mTest;
+//	Asun mAsun;
+//	CTB mCtb;
+//};
+///*******/
+//class Grand
+//{
+//public:
+//};
+//
+//class Father1 : virtual public Grand
+//{
+//public:
+//
+//};
+//
+//class Father2 : virtual public Grand
+//{
+//public:
+//
+//};
+//
+//
+//class Son : public Father1, public Father2
+//{
+//public:
+//
+//};
 
-};
 
-class A
-{
-public:
-	int mTest;
-	Asun mAsun;
-	CTB mCtb;
-};
-/*******/
-class Grand
-{
-public:
-};
-
-class Father1 : virtual public Grand
-{
-public:
-
-};
-
-class Father2 : virtual public Grand
-{
-public:
-
-};
-
-
-class Son : public Father1, public Father2
-{
-public:
-
-};
-
-
-int main()
-{
+//int main()
+//{
 	//传统理解，如果我们没有定义自己的拷贝构造函数，编译器会合成一个可瓯北构造函数
 	//合成的拷贝构造函数，也是在必要的时候才会被编译器合成出来
 
@@ -102,7 +102,12 @@ int main()
 	    //当代码中涉及到类A的拷贝构造时，会为类A 合成拷贝构造函数
 	    //会在类A中合成拷贝构造函数，并安插代码调用类CTB的拷贝构造函数
 		//编译器合成的拷贝构造函数都是干一些特殊的事情，如果只是成员变量的值拷贝，编译器是不用专门合成拷贝构造函数实现
-		
+	//A myA1;
+	//myA1.mTest = 15;
+	//myA1.mAsun.mAsun = 120;
+
+	//A myA2 = myA1;
+	//	
 	//2.如果一个类CTBSon,没有拷贝构造函数，但是父类有拷贝构造函数，当代码中涉及到CTBSon的拷贝构造时
 	//编译器会为CTBSon合成拷贝构造函数，调用父类拷贝构造函数
 	//CTBSon son1;
@@ -119,11 +124,11 @@ int main()
 	//Son mySon2 = mySon1;
 
 	//求证拷贝值和拷贝构造函数调用顺序
-	A a1;
-	a1.mCtb.test = 10;
-	A a2 = a1;
+	//A a1;
+	//a1.mCtb.test = 10;
+	//A a2 = a1;
 
 
-
-	return 0;
-}
+//
+//	return 0;
+//}
