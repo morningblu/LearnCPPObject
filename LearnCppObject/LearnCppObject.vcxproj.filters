@@ -33,5 +33,8 @@
     <ClCompile Include="2.6_拷贝构造函数语义.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.7_程序转化语义.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

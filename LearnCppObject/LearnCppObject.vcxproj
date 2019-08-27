@@ -124,6 +124,7 @@
     <ClCompile Include="2.4_分析obj(目标文件)_构造函数语义.cpp" />
     <ClCompile Include="2.5_构造函数语义续.cpp" />
     <ClCompile Include="2.6_拷贝构造函数语义.cpp" />
+    <ClCompile Include="2.7_程序转化语义.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
