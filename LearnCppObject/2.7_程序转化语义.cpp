@@ -1,33 +1,33 @@
 
-
-#include<iostream>
-
-class X
-{
-public:
-	int mI;
-	X(const X& x)
-	{
-		mI = x.mI;
-		std::cout << "拷贝函数被调用" << std::endl;
-	}
-
-	X()
-	{
-		mI = 0;
-		std::cout << "构造函数被调用" << std::endl;
-	}
-	~X()
-	{
-		std::cout << "析构函数被调用" << std::endl;
-
-	}
-
-	void FuncTest()
-	{
-		std::cout << "test" << std::endl;
-	}
-};
+//
+//#include<iostream>
+//
+//class X
+//{
+//public:
+//	int mI;
+//	X(const X& x)
+//	{
+//		mI = x.mI;
+//		std::cout << "拷贝函数被调用" << std::endl;
+//	}
+//
+//	X()
+//	{
+//		mI = 0;
+//		std::cout << "构造函数被调用" << std::endl;
+//	}
+//	~X()
+//	{
+//		std::cout << "析构函数被调用" << std::endl;
+//
+//	}
+//
+//	void FuncTest()
+//	{
+//		std::cout << "test" << std::endl;
+//	}
+//};
 
 
 //void fun(X temp)
@@ -35,14 +35,14 @@ public:
 //	return;
 //}
 
-X fun()
-{
-	X x0;
-	return x0; //生成临时对象，把x0拷贝构造给临时对象
-}
+//X fun()
+//{
+//	X x0;
+//	return x0; //生成临时对象，把x0拷贝构造给临时对象
+//}
 
-int main()
-{
+//int main()
+//{
 	//程序转化语义
 	//我们写的代码，编译器会对代码进行拆分，拆分成编译器更容易理解和实现的代码
 
@@ -98,5 +98,5 @@ int main()
 	//pf(x0);
 	//x0.FuncTest();
 
-	return 0;
-}
+//	return 0;
+//}

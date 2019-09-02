@@ -36,5 +36,8 @@
     <ClCompile Include="2.7_程序转化语义.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.8_程序优化.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
